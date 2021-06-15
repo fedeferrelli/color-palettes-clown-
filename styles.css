@@ -1,0 +1,189 @@
+html{
+    font-size: 9px;display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body{
+    max-width: 1200px;
+    height: 100vh;
+    background: linear-gradient(217deg, rgba(255,0,0,.3), rgba(0,0,255,.3));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.clown{
+    margin: 3rem;
+}
+
+.hat {     
+   margin-top: 2rem;
+    border-bottom: 22rem solid #f0ad4e;
+    border-right: 28rem solid transparent;
+    border-left: 28rem solid transparent; 
+}
+
+
+.face{
+    margin:auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    border: grey 1px solid;
+    align-items: center;
+    border-radius:0 0 5em 5em;
+}
+
+
+.eyebrows{
+    display: flex;
+    flex-direction: row;
+    width: 37rem;
+    font-size: 1.6rem;
+    justify-content: space-around;
+    color: rgb(65, 61, 61);
+}
+
+
+.eyes{
+    display: flex;
+    flex-direction: row;
+    width: 37rem;
+    justify-content: space-around;
+}
+
+.eye{
+    background-color: white;
+    color: white;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: gray solid 0.05rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.eye-bg{
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.05rem black;
+    font-size: 1.8rem;
+    letter-spacing: 0.35rem;
+}
+
+
+.eye-t{
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.05rem black;
+    font-size: 2rem;
+    letter-spacing: 0.35rem;
+}
+
+.nose{
+    display: flex;
+    flex-direction: row;
+    width: 37rem;
+    justify-content: center;
+}
+
+.noses{
+    border: none;   
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+}
+
+.mouth{
+    width: 35rem;
+    height: 7rem;
+    border-radius: 2rem;
+    border: gray solid 0.05rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.save, .clear{
+    width: 7rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+   background-color: transparent;
+    border-radius: 1.5rem;
+    border: violet 0.15rem solid;
+    color:violet
+}
+
+
+.paletas-guardadas{
+    margin: 3rem;
+    width: 40rem;
+    background-color: white;
+    padding: 1rem;
+    border: grey 0.1rem solid;
+    border-radius:5rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+}
+
+.paletas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.paleta{
+   width: 10rem;
+   height: 3rem;
+   font-size: 2rem;
+   padding-top: 0.75rem;
+   text-align: center;
+   vertical-align: middle;
+   margin: 0.5rem;
+   border-radius: 0.3rem;
+}
+
+.paleta:hover{
+    box-shadow: -1.5px -1.5px 2px gray;
+}
+
+
+@media (max-width: 600px){
+
+    html{
+        font-size: 8px;
+    }
+
+    body{
+        flex-direction: column;
+        height: 200vh;
+        justify-content:end ;
+    }
+
+    .hat {     
+        margin-top: 5rem;
+        border-bottom: 25rem solid #f0ad4e;
+        border-right: 22rem solid transparent;
+        border-left: 22rem solid transparent;  
+    }
+
+
+} 
+
+
+
+
