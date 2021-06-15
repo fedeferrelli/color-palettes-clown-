@@ -172,6 +172,7 @@ body{
         flex-direction: column;
         height: 200vh;
         justify-content:end ;
+        height: auto;
     }
 
     .hat {     
