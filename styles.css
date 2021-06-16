@@ -25,14 +25,7 @@ body{
     align-items: center;
 }
 
-.hat {     
-   margin-top: 2rem;
-    border-bottom: 22rem solid #f0ad4e;
-    border-right: 28rem solid transparent;
-    border-left: 28rem solid transparent; 
-}
-
-.hat2{
+.hair{
     width: 70rem;
     height: auto;
     margin-bottom: -31rem;
@@ -180,6 +173,7 @@ body{
 
     html{
         font-size: 6px;
+       
     }
 
     body{
@@ -188,13 +182,9 @@ body{
         justify-content:end ;
     }
 
-    .hat {     
-        margin-top: 5rem;
-        border-bottom: 25rem solid #f0ad4e;
-        border-right: 22rem solid transparent;
-        border-left: 22rem solid transparent;  
+    .hair{
+        width: 65rem;
     }
-
 
 } 
 
